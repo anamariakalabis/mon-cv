@@ -1,0 +1,102 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Prata&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Prata&family=Raleway:wght@300&display=swap');
+
+html{
+    background-color: #782221;
+    font-family: 'Lato', sans-serif;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border-color: black solid;
+    margin-top: 15px;
+
+
+}
+h1{
+   text-transform :upperCase;
+}
+
+address{
+    background-color: #2c1d27;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+
+
+main{
+    display:flex;
+    flex-direction: row;
+}
+.left{
+    flex-direction: row;
+    background-color:#782221 ;
+    text-align: left;
+    color:white;
+    flex: 1 1 0;
+    padding-right: 30px;
+
+    
+}
+
+h4{
+    padding: 10px;
+    background-color:#dbc2a4 ;
+    color:black;
+
+}
+
+.right{
+     font-display: row;
+     flex-direction: column;
+     background-color: white;
+    flex:2 1 0;
+    padding-left: 30px;
+
+}
+
+
+.right h4{
+    background-color: #dbc2a4;
+    color:black;
+}
+
+footer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white
+
+}
+
+footer .icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
